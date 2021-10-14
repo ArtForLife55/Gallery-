@@ -36,3 +36,7 @@ var changeSlide = (direction) => {
         activeSlideIndex * sliderHeight
     }px)`;
 };
+function next() {
+    $(".page1").hide();
+    $("#carrousell").show();
+}
