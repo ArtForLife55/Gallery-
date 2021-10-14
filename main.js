@@ -1,5 +1,5 @@
 $(".page1").hide();
-$("#carrousell").hide();
+// $("#carrousell").hide();
 
 var sliderContainer = document.querySelector(".slider-container");
 var slideRight = document.querySelector(".right-slide");

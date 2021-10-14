@@ -1,16 +1,12 @@
 /* page1 */
-.page1 {
-    background: url(295841.jpg) no-repeat center center fixed;
+body {
+    background: url("./background-Images/photo-1469474968028-56623f02e42e.jpg")
+        no-repeat center center fixed;
     background-size: 100%;
-    /* margin: 10px;
-    margin-top: 70px;
-    background-repeat: no-repeat;
-    background-size: cover; */
-    /* -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover; */
+    font-family: "Open Sans", sans-serif;
+    height: 100vh;
 }
+
 ul {
     list-style: none;
 }
@@ -95,11 +91,6 @@ h1 {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-}
-
-body {
-    font-family: "Open Sans", sans-serif;
-    height: 100vh;
 }
 
 .slider-container {
