@@ -1,3 +1,4 @@
+$(".page1").hide();
 $("#carrousell").hide();
 
 var sliderContainer = document.querySelector(".slider-container");
