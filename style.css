@@ -79,6 +79,13 @@ li {
 }
 h1 {
     text-align: center;
+    position: relative;
+    top: 170px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform:capitalize;
+    opacity:0.6;
+   font-weight: 300;
+   
 }
 
 /* page2 */
