@@ -241,8 +241,8 @@ button:focus {
     cursor: pointer;
 }
 .content.heart-active {
-    border-color: #f9b9c4;
-    background: #fbd0d8;
+    border-color: #ffffff;
+    background: #f8f8f8;
 }
 .heart {
     position: absolute;

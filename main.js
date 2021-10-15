@@ -10,7 +10,8 @@ var slidesLength = slideRight.querySelectorAll("div").length;
 
 var activeSlideIndex = 0;
 
-slideLeft.style.top = `-${(slidesLength - 1) * 100}vh`;
+slideLeft.style.top = `-${(slidesLength - 1) * 100}vh`; 
+// Heni helped me with this line
 
 upButton.addEventListener("click", () => changeSlide("up"));
 downButton.addEventListener("click", () => changeSlide("down"));
@@ -37,13 +38,11 @@ var changeSlide = (direction) => {
     }px)`;
 };
 function next() {
-    $(".page1").hide(1000);
+    $(".page1").hide();
     $("#carrousell").show();
 }
 
-
-
-// LIKE
+// LIKE button
 
 $(document).ready(function () {
     $(".content").click(function () {
@@ -53,3 +52,4 @@ $(document).ready(function () {
         $(".heart").toggleClass("heart-active");
     });
 });
+// ==> toggleClass :Add or remove one or more classes from each element in the set of matched elements, depending on either the class's presence or the value of the state argument.
