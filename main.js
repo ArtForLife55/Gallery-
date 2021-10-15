@@ -37,6 +37,19 @@ var changeSlide = (direction) => {
     }px)`;
 };
 function next() {
-    $(".page1").hide();
+    $(".page1").hide(1000);
     $("#carrousell").show();
 }
+
+
+
+// LIKE
+
+$(document).ready(function () {
+    $(".content").click(function () {
+        $(".content").toggleClass("heart-active");
+        $(".text").toggleClass("heart-active");
+        $(".numb").toggleClass("heart-active");
+        $(".heart").toggleClass("heart-active");
+    });
+});
