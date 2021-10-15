@@ -10,7 +10,7 @@ var slidesLength = slideRight.querySelectorAll("div").length;
 
 var activeSlideIndex = 0;
 
-slideLeft.style.top = `-${(slidesLength - 1) * 100}vh`; 
+slideLeft.style.top = `-${(slidesLength - 1) * 100}vh`;
 // Heni helped me with this line
 
 upButton.addEventListener("click", () => changeSlide("up"));
