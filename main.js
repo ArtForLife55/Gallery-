@@ -17,11 +17,12 @@ var slideLeft = document.querySelector(".left-slide");
 var upButton = document.querySelector(".up-button");
 var downButton = document.querySelector(".down-button");
 var slidesLength = slideRight.querySelectorAll("div").length;
+// The  querySelector() returns the first Element within the document that matches the specified selector, or group of selectors. If no matches are found, null is returned.
 
 var activeSlideIndex = 0;
 
 slideLeft.style.top = `-${(slidesLength - 1) * 100}vh`;
-// Heni helped me with this line
+// Heni helped me with this line i understood that its based on styling the vertical height as an animation number and using the backtiks lets use any javascript context were ever you need it .
 
 upButton.addEventListener("click", () => changeSlide("up"));
 downButton.addEventListener("click", () => changeSlide("down"));

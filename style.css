@@ -338,3 +338,7 @@ nav .menu li a:hover {
 li {
     display: inline-block;
 }
+.textt {
+    text-align: center;
+    position: relative;
+}
