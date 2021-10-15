@@ -1,6 +1,16 @@
-//$(".page1").hide();
+// $(".page1").hide();
 $("#carrousell").hide();
+// $(".page2").hide();
 
+function next() {
+    $(".page1").hide();
+    $("#carrousell").show();
+}
+function next1() {
+    $(".page1").hide();
+    $("#carrousell").hide();
+    $(".page2").show();
+}
 var sliderContainer = document.querySelector(".slider-container");
 var slideRight = document.querySelector(".right-slide");
 var slideLeft = document.querySelector(".left-slide");
@@ -37,10 +47,6 @@ var changeSlide = (direction) => {
         activeSlideIndex * sliderHeight
     }px)`;
 };
-function next() {
-    $(".page1").hide();
-    $("#carrousell").show();
-}
 
 // LIKE button
 
