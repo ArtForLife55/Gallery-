@@ -338,7 +338,59 @@ nav .menu li a:hover {
 li {
     display: inline-block;
 }
+
 .textt {
     text-align: center;
     position: relative;
+    color: cadetblue;
+    font-family: Arial;
+    background: whitesmoke;
+    font-size: 22px;
+    border-radius: 10px;
+    width: 80%;
+    margin-left: 10%;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.texttt {
+    color: black;
+    font-family: poppins;
+    text-align: center;
+    size: 80px;
+}
+
+.title {
+    color: cadetblue;
+    font-size: 50px;
+}
+.button2 {
+    color: #fff;
+    top: 80%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    background: none;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    width: 300px;
+    height: 60px;
+}
+.button2::after,
+.button2::before {
+    border: 3px solid #ffffff;
+    content: "";
+    position: absolute;
+    width: calc(100% - 6px);
+    height: calc(100% - 6px);
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: transform 0.3s ease;
+}
+.button2:hover::after {
+    transform: translate(-5px, -5px);
+}
+.button2:hover::before {
+    transform: translate(5px, 5px);
 }

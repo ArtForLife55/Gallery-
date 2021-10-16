@@ -1,6 +1,7 @@
 // $(".page1").hide();
 $("#carrousell").hide();
 // $(".page2").hide();
+$(".button2").hide();
 
 function next() {
     $(".page1").hide();
@@ -10,6 +11,7 @@ function next1() {
     $(".page1").hide();
     $("#carrousell").hide();
     $(".page2").show();
+    $(".button2").show();
 }
 var sliderContainer = document.querySelector(".slider-container");
 var slideRight = document.querySelector(".right-slide");
@@ -22,7 +24,7 @@ var slidesLength = slideRight.querySelectorAll("div").length;
 var activeSlideIndex = 0;
 
 slideLeft.style.top = `-${(slidesLength - 1) * 100}vh`;
-// Heni helped me with this line i understood that its based on styling the vertical height as an animation number and using the backtiks lets use any javascript context were ever you need it .
+// Heni helped me with this line i understood that its based on styling the vertical height as an animation number that play the role of giving the slide change its efficiency and using the backtiks lets use any javascript context were ever you need it .
 
 upButton.addEventListener("click", () => changeSlide("up"));
 downButton.addEventListener("click", () => changeSlide("down"));
